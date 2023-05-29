@@ -91,6 +91,7 @@ section.features
 
             &:hover { 
                 transition: all .3s;
+                padding: 1.389vw 0;
             }
 
             @include mid { 
@@ -99,7 +100,7 @@ section.features
             }
             @include lg { 
                 min-height: 20.486vw;
-                // padding: 1.389vw 2.778vw;
+                padding: 1.389vw 2.778vw;
                 border-radius: 0.556vw;
                 max-width: 20.833vw;
             }
