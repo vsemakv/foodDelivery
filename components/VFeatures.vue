@@ -146,9 +146,10 @@ section.features
                 width: 300px;
 
                 @include lg { 
-                    min-width: 17.361vw;
+                    min-width: none;
+                    width: 12.361vw;
                     font-size: 1.111vw;
-                    padding: 1.1vw;
+                    padding: 0;
                 }
             }
             & > img { 
